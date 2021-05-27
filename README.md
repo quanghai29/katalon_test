@@ -15,17 +15,17 @@
  
  ## Khởi chạy mattermost ở local
 
-   Khởi chạy lần đầu:
+   Khởi chạy lần đầu:  
    docker run --name mattermost-preview -d --publish 8065:8065 --add-host dockerhost:127.0.0.1 mattermost/mattermost-preview
    
-   Tắt\n
+   Tắt:  
    docker stop mattermost-preview
    
-   Khởi chạy từ lần hai
+   Khởi chạy từ lần hai:   
    Mở docker desktop và run image mattermost-preview
    
-   TestUI
+   TestUI:   
    http://localhost:8065
    
-   TestAPI
+   TestAPI:  
    http://localhost:8065/api/v4/system/ping
