@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LoginTestSuite" time="12.596" tests="1" failures="0" errors="0">
+   <testsuite name="LoginTestSuite" tests="1" failures="0" errors="0" time="12.596" skipped="0" timestamp="2021-05-27 11:15:26" hostname="QuangHai - host.docker.internal" id="Test Suites/LoginTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Le Quang Hai\\git\\katalon_test\\Reports\\20210527_111516\\LoginTestSuite\\20210527_111516"/>
+         <property name="logFiles" value="C:\\Users\\Le Quang Hai\\git\\katalon_test\\Reports\\20210527_111516\\LoginTestSuite\\20210527_111516\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="QuangHai - host.docker.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.0.208"/>
+         <property name="browser" value="Chrome 90.0.4430.212"/>
+         <property name="hostAddress" value="192.168.1.3"/>
+         <property name="sessionId" value="bbd103bbfb178adcd06acc483e082e7e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Test_1_Data_CSV" time="10.072" classname="Test Cases/Login/Test_1_Data_CSV" status="PASSED">
+         <system-out><![CDATA[2021-05-27 11:15:28 - [TEST_CASE][PASSED] - Test Cases/Login/Test_1_Data_CSV: Test Cases/Login/Test_1_Data_CSV
+
+2021-05-27 11:15:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-27 11:15:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-27 11:15:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-27 11:15:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-27 11:15:31 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8065/login"): Navigate to 'http://localhost:8065/login' successfully
+
+2021-05-27 11:15:33 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8065/login' successfully
+
+2021-05-27 11:15:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_Mattermost/input_All team communication in one place, _dcc84b"), "haiit99"): Text 'haiit99' is set on object 'Object Repository/Login/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-27 11:15:36 - [MESSAGE][PASSED] - Text 'haiit99' is set on object 'Object Repository/Login/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-27 11:15:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Page_Mattermost/input_All team communication in one place, _a3edc6"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Login/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-27 11:15:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-27 11:15:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Login/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-27 11:15:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-27 11:15:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-27 11:15:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-05-27 11:15:26 - [TEST_SUITE][PASSED] - LoginTestSuite: Test Cases/Login/Test_1_Data_CSV]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

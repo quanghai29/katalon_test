@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+LoginTestSuite,Chrome 90.0.4430.212,,,2021-05-27 11:15:26,2021-05-27 11:15:38,11.711s,PASSED
+,,,,,,,
+Test Cases/Login/Test_1_Data_CSV,Chrome 90.0.4430.212,,,2021-05-27 11:15:28,2021-05-27 11:15:38,10.072s,PASSED
+"openBrowser("""")",Chrome 90.0.4430.212,,,2021-05-27 11:15:28,2021-05-27 11:15:31,2.798s,PASSED
+"navigateToUrl(""http://localhost:8065/login"")",Chrome 90.0.4430.212,,,2021-05-27 11:15:31,2021-05-27 11:15:33,1.375s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Mattermost/input_All team communication in one place, _dcc84b""), ""haiit99"")",Chrome 90.0.4430.212,,,2021-05-27 11:15:33,2021-05-27 11:15:36,3.163s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Page_Mattermost/input_All team communication in one place, _a3edc6""), ""aeHFOx8jV/A="")",Chrome 90.0.4430.212,,,2021-05-27 11:15:36,2021-05-27 11:15:36,0.615s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Mattermost/span_Sign in""))",Chrome 90.0.4430.212,,,2021-05-27 11:15:36,2021-05-27 11:15:37,0.647s,PASSED
+closeBrowser(),Chrome 90.0.4430.212,,,2021-05-27 11:15:37,2021-05-27 11:15:38,0.797s,PASSED
