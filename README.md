@@ -7,7 +7,7 @@
 ## Quy định đặt tên
  Tên test case được đặt theo dạng sau:
  		
- 		<h4> Test_[number test]_[Type Test] </h4>
+ 		Test_[number test]_[Type Test]
  		
  		Trong đó: 
  			[number test]: thứ tự test case, nếu commit bị trùng tên thì tự tăng number test lên
