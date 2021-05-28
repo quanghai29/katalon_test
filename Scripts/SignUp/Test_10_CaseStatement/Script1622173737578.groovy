@@ -22,13 +22,13 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('http://localhost:8065/signup_email')
 
 WebUI.setText(findTestObject('Object Repository/SignUp/Page_Mattermost_1/input_concat(What, , s your email address)_email'), 
-    findTestData('Register Internal Data').getValue(1, 6))
+    findTestData('Register Internal Data').getValue(1, 7))
 
 WebUI.setText(findTestObject('Object Repository/SignUp/Page_Mattermost_1/input_Choose your username_name'), findTestData(
-        'Register Internal Data').getValue(2, 6))
+        'Register Internal Data').getValue(2, 7))
 
 WebUI.setText(findTestObject('Object Repository/SignUp/Page_Mattermost_1/input_Choose your password_password'), findTestData(
-        'Register Internal Data').getValue(3, 6))
+        'Register Internal Data').getValue(3, 7))
 
 WebUI.click(findTestObject('Object Repository/Page_Mattermost_2/span_Create Account'))
 
