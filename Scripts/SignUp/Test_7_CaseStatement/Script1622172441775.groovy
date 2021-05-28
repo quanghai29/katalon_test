@@ -17,3 +17,33 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://localhost:8065/signup_email')
+
+WebUI.setText(findTestObject('Object Repository/SignUp/Page_Mattermost_1/input_concat(What, , s your email address)_email'), 
+    findTestData('Register Internal Data').getValue(1, 2))
+
+WebUI.setText(findTestObject('Object Repository/SignUp/Page_Mattermost_1/input_Choose your username_name'), findTestData(
+        'Register Internal Data').getValue(2, 2))
+
+WebUI.setText(findTestObject('Object Repository/SignUp/Page_Mattermost_1/input_Choose your password_password'), findTestData(
+        'Register Internal Data').getValue(3, 2))
+
+WebUI.click(findTestObject('Object Repository/Page_Mattermost_2/span_Create Account'))
+
+TestObject object = findTestObject('Object Repository/Page_Mattermost/label_Please enter a valid email address')
+
+switch (object) {
+    case null:
+        break
+    default:
+	WebUI.setText(findTestObject('Object Repository/SignUp/Page_Mattermost_1/input_concat(What, , s your email address)_email'),
+		findTestData('Register Internal Data').getValue(1, 3))
+
+	WebUI.click(findTestObject('Object Repository/Page_Mattermost_2/span_Create Account'))
+        break
+}
+
+WebUI.closeBrowser()
+

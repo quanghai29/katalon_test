@@ -3,7 +3,7 @@
    <description></description>
    <name>span_Create Account</name>
    <tag></tag>
-   <elementGuidId>b7205b09-5507-452d-ad3b-367401a973c3</elementGuidId>
+   <elementGuidId>3967c7c0-8f51-47ed-9a46-f5a3d0686d34</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

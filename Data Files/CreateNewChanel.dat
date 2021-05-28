@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>CreateNewChanel</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>0f93620a-5fc9-4ff5-ad68-86ec990bc5df</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>http%3A%2F%2Flocalhost%3A8065%2Fsignup_email dung2%40gmail.com dung2 12345678 hello+world nothing2</data>
+   <data>http%3A%2F%2Flocalhost%3A8065%2Fsignup_email dung3%40gmail.com dung3 12345678 hello+2 null</data>
+   <data>http%3A%2F%2Flocalhost%3A8065%2Fsignup_email dung4%40gmail.com dung4 12345678 hello+3 null</data>
+   <data>http%3A%2F%2Flocalhost%3A8065%2Fsignup_email dung5%40gmail.com dung5 12345678 hello+4 null</data>
+   <data>http%3A%2F%2Flocalhost%3A8065%2Fsignup_email dung6%40gmail.com dung6 12345678 hello+5 null</data>
+   <data>http%3A%2F%2Flocalhost%3A8065%2Flogin dung2%40gmail.com dung2 12345678 hello+6 environment2</data>
+   <data>http%3A%2F%2Flocalhost%3A8065%2Flogin dung3%40gmai.com dung3 12345678 hello+7 env3</data>
+   <data>http%3A%2F%2Flocalhost%3A8065%2Flogin dung4%40gmail.com dung4 12345678 hello+8 env4</data>
+   <data>null null null null null null</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>url</name>
+      <size>9</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>email</name>
+      <size>9</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>username</name>
+      <size>9</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>password</name>
+      <size>9</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>4</columnIndex>
+      <name>teamname</name>
+      <size>9</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>5</columnIndex>
+      <name>chanelname</name>
+      <size>9</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
