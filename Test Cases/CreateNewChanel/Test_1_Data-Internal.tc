@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>sign-up sucessfully, then create new chanel</description>
+   <name>Test_1_Data-Internal</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>35964a16-d7d4-4269-8973-5bb2fdf0d36c</testCaseGuid>
+</TestCaseEntity>
