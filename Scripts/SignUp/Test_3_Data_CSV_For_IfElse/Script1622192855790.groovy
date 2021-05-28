@@ -10,43 +10,42 @@ import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
-import com.kms.katalon.core.testobject.TestObject
-import com.kms.katalon.core.util.KeywordUtil
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable
-import junit.framework.Assert
-
+import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.testdata.CSVData as CSV
 
-def data = findTestData('Login_CSV')
+def data = findTestData('SignUp_UserNameInvalid_CSV')
 
 for (def index : (1..data.getRowNumbers())) {
     WebUI.openBrowser('')
 
-    WebUI.navigateToUrl('http://localhost:8065/login')
+    WebUI.navigateToUrl('http://localhost:8065/signup_email')
 
-    WebUI.setText(findTestObject('Login/Page_Mattermost_1/input_All team communication in one place, _dcc84b'), 
-        data.getValue('Username', index))
+    WebUI.setText(findTestObject('Object Repository/SignUp/Page_Mattermost/input_concat(What, , s your email address)_email'), 
+        data.getValue('Email', index))
 
-    WebUI.setText(findTestObject('Login/Page_Mattermost_1/input_All team communication in one place, _a3edc6'), 
-        data.getValue('Password', index))
+    WebUI.setText(findTestObject('Object Repository/SignUp/Page_Mattermost/input_Choose your username_name'), data.getValue(
+            'Username', index))
+	
+    WebUI.setText(findTestObject('Object Repository/SignUp/Page_Mattermost/input_Choose your password_password'), data.getValue(
+            'Password', index))
 
-    WebUI.click(findTestObject('Login/Page_Mattermost_1/span_Sign in'))
+    WebUI.click(findTestObject('Object Repository/SignUp/Page_Mattermost/button_Create Account'))
 	
-	def warning = WebUI.getText(findTestObject('Login/Page_Mattermost_1/label_Enter a valid email or username andor_ef8acb'))
+	def warning = WebUI.getText(findTestObject('Object Repository/SignUp/page2/Page_Mattermost/label_Usernames have to begin with a lowerc_707f7d'))
 	
-	if(warning == data.getValue('Warning',index) ) {
-		KeywordUtil.markPassed('Pass')
-	}else if(warning == 'Your account is locked because of too many failed password attempts. Please reset your password.'){
-		KeywordUtil.markPassed('Pass')
-	}else {
-		KeywordUtil.markFailed('Failed');
-	}
-	
+    if (warning == data.getValue('Warning', index)) {
+        KeywordUtil.markPassed('Pass' + index)
+    } else {
+        KeywordUtil.markFailed('Fail' + index)
+    }
+    
     WebUI.closeBrowser()
 }
+
 
 

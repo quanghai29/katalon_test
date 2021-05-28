@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Test_1_Data_CSV</name>
+   <name>Test_4_Data_CSV_For_IfElse</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>33f12ac6-6477-4c55-84a0-7781f127403a</testCaseGuid>
+   <testCaseGuid>9fe5cd57-c0b2-416d-9d11-beb277097698</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>a6d6b5b0-f06c-48d5-9608-15edfcd6ee5a</id>
+      <id>d5ed30b8-7855-4c4c-ad35-d959f084af08</id>
       <masked>false</masked>
-      <name>Username</name>
+      <name>Email</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>7f6b09dd-0f73-4694-bbd8-adc909496639</id>
+      <id>d49031ab-0636-41d8-b884-1a0ce4d90bdc</id>
       <masked>false</masked>
       <name>Password</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>d172c7e0-062e-47f9-b293-6c7448428842</id>
+      <id>583bace6-fa77-4ff0-bfcc-cfd695f01581</id>
       <masked>false</masked>
       <name>Warning</name>
    </variable>

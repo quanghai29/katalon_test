@@ -1,0 +1,6 @@
+Email,Username,Password,Warning
+newuser@gmail.com,haiit99,123456,An account with that username already exists.
+newuser@gmail.com,abc,123456,An account with that username already exists.
+newuser@gmail.com,abcd,123456,An account with that username already exists.
+newuser@gmail.com,abcde,123456,An account with that username already exists.
+newuser@gmail.com,abcdef,123456,An account with that username already exists.

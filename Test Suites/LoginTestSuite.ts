@@ -15,7 +15,7 @@
       <guid>c64bf0e8-4493-48ea-926b-c73a4d182648</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/Test_1_Data_CSV</testCaseId>
+      <testCaseId>Test Cases/Login/Test_1_Data_CSV_For_IfElse</testCaseId>
       <testDataLink>
          <combinationType>MANY</combinationType>
          <id>79cf77db-9714-4ba6-ac1b-1fb1f8674ea7</id>
@@ -23,7 +23,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Login_CSV</testDataId>
+         <testDataId>Data Files/Login_RightAccount_CSV</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>

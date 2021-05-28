@@ -1,0 +1,6 @@
+Email,Username,Password,Warning
+lequanghai540@gmail.com,newuser,123456,An account with that email already exists.
+abc@gmail.com,newuser,123456,An account with that email already exists.
+abcd@gmail.com,newuser,123456,An account with that email already exists.
+abcde@gmail.com,newuser,123456,An account with that email already exists.
+abcdef@gmail.com,newuser,123456,An account with that email already exists.

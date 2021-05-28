@@ -1,0 +1,6 @@
+Email,Username,Password,Warning
+new@gmail.com,abc xyz,123456,"Usernames have to begin with a lowercase letter and be 3-22 characters long. You can use lowercase letters, numbers, periods, dashes, and underscores."
+new@gmail.com,a,123456,"Usernames have to begin with a lowercase letter and be 3-22 characters long. You can use lowercase letters, numbers, periods, dashes, and underscores."
+new@gmail.com,123xyz,123456,"Usernames have to begin with a lowercase letter and be 3-22 characters long. You can use lowercase letters, numbers, periods, dashes, and underscores."
+new@gmail.com,12,123456,"Usernames have to begin with a lowercase letter and be 3-22 characters long. You can use lowercase letters, numbers, periods, dashes, and underscores."
+new@gmail.com,mm,123456,"Usernames have to begin with a lowercase letter and be 3-22 characters long. You can use lowercase letters, numbers, periods, dashes, and underscores."

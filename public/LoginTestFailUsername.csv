@@ -1,0 +1,6 @@
+Username,Password,Warning
+not_found,123456,Enter a valid email or username and/or password.
+123,123456,Enter a valid email or username and/or password.
+123_abc,123456,Enter a valid email or username and/or password.
+abc_123,123456,Enter a valid email or username and/or password.
+bad user,123456,Enter a valid email or username and/or password.

@@ -1,0 +1,6 @@
+Email,Username,Password,Warning
+abc @gmail.com,new user,123456,Please enter a valid email address
+abc_123gmail.com,new user,123456,Please enter a valid email address
+abc_1234# gmail,new user,123456,Please enter a valid email address
+@commfmfm,new user,123456,Please enter a valid email address
+12@,new user,123456,Please enter a valid email address

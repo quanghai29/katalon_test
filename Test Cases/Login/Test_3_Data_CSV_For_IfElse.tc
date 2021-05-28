@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_3_Data_CSV_For_IfElse</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b5730f38-6bd2-460b-8cf3-67f63e022435</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b3ef23ea-c27a-4210-8477-60f16b3a4d0d</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e820e6ea-c452-4fbf-9cab-063ef1553956</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8a2c72cc-c8bc-431f-b8b9-c87c2732d7bc</id>
+      <masked>false</masked>
+      <name>Warning</name>
+   </variable>
+</TestCaseEntity>
