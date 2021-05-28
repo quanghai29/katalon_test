@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test chuc nang Login 
++Nhap sai Username
++Nhap dung Password</description>
+   <name>Test_3_DataInternal_For</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c3963d60-f02d-411b-b3c3-1e5e24f53400</testCaseGuid>
+</TestCaseEntity>
