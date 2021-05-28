@@ -3,19 +3,7 @@
    <description></description>
    <name>label_Your password must contain between 5 _b964be</name>
    <tag></tag>
-<<<<<<< HEAD
-   <elementGuidId>86094528-3c99-4825-ab2a-3d5135185594</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='signup_email_section']/div/form/div/div[3]/div/label</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>label.control-label</value>
-      </entry>
-=======
-   <elementGuidId>87385b56-c34c-4908-bb06-f28ee6741b2e</elementGuidId>
+   <elementGuidId>785c9442-d909-4b7d-bff1-85a1e4259a2c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -25,7 +13,6 @@
          <key>XPATH</key>
          <value>//div[@id='signup_email_section']/div/form/div/div[3]/div/label</value>
       </entry>
->>>>>>> 6f4363388059c337528619831f303707e5c09747
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>

@@ -9,6 +9,26 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/SignUp/span_Logout_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/SignUp/Page_Mattermost_2/span_Logout",
+      "brokenLocator": "//a[@id\u003d\u0027logout\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Mattermost\u0027])[2]/preceding::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/SignUp/Page_Mattermost_2/span_Logout_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Mattermost_2/span_Logout",
+      "brokenLocator": "//a[@id\u003d\u0027logout\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Mattermost\u0027])[2]/preceding::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Mattermost_2/span_Logout_neighbor.png"
     }
   ]
 }
