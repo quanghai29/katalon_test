@@ -21,16 +21,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8065/signup_email')
 
-WebUI.setText(findTestObject('SignUp/input_concat(What, , s your email address)_email'), findTestData('Register Internal Data').getValue(
-        1, 2))
+WebUI.setText(findTestObject('SignUp/Page_Mattermost_1/input_concat(What, , s your email address)_email'), findTestData(
+        'Register Internal Data').getValue(1, 2))
 
-WebUI.setText(findTestObject('SignUp/input_Choose your username_name'), findTestData('Register Internal Data').getValue(
+WebUI.setText(findTestObject('SignUp/Page_Mattermost_1/input_Choose your username_name'), findTestData('Register Internal Data').getValue(
         2, 2))
 
-WebUI.setText(findTestObject('SignUp/input_Choose your password_password'), findTestData('Register Internal Data').getValue(
+WebUI.setText(findTestObject('SignUp/Page_Mattermost_1/input_Choose your password_password'), findTestData('Register Internal Data').getValue(
         3, 2))
 
-WebUI.click(findTestObject('SignUp/span_Create Account'))
+WebUI.click(findTestObject('SignUp/Page_Mattermost_2/span_Create Account'))
 
-WebUI.click(findTestObject('SignUp/span_Logout'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Mattermost/label_Please enter a valid email address'), 
+    1)
+
+WebUI.closeBrowser()
 
