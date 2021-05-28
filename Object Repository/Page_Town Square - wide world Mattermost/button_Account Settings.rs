@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Choose your username_name</name>
+   <name>button_Account Settings</name>
    <tag></tag>
-   <elementGuidId>68103165-4be4-4a60-b4cd-4f0d90a6b368</elementGuidId>
+   <elementGuidId>c45f0a03-6183-4714-af00-5a7a8e81f7c8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#name</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='name']</value>
+         <value>//li[@id='accountSettings']/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,76 +21,76 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>name</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control</value>
+      <value>style--none </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
+      <name>data-toggle</name>
       <type>Main</type>
-      <value>22</value>
+      <value>modal toggle</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>spellcheck</name>
+      <name>aria-label</name>
       <type>Main</type>
-      <value>false</value>
+      <value>Account Settings dialog</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>autocapitalize</name>
+      <name>text</name>
       <type>Main</type>
-      <value>off</value>
+      <value>Account Settings</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;name&quot;)</value>
+      <value>id(&quot;accountSettings&quot;)/button[@class=&quot;style--none&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//input[@id='name']</value>
+      <value>//li[@id='accountSettings']/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//div[@id='signup_email_section']/div/form/div/div[2]/div/input</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='@dung12'])[1]/following::button[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='wide world'])[2]/following::button[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Invite People'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/input</value>
+      <value>//li[3]/button</value>
    </webElementXpaths>
 </WebElementEntity>

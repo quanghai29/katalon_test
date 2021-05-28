@@ -30,10 +30,9 @@ WebUI.callTestCase(findTestCase('SignUp/Test_6_Data_Internal'), [:], FailureHand
 //WebUI.setEncryptedText(findTestObject('Object Repository/Page_Mattermost/input_Choose your password_password'), 'RigbBhfdqOBGNlJIWM1ClA==')
 //
 //WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Create Account'))
-
 WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Create a team'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_Team Name_teamNameInput'), 'maketing')
+WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_Team Name_teamNameInput'), 'maketing123')
 
 WebUI.click(findTestObject('Object Repository/Page_Mattermost/button_Next'))
 
@@ -43,7 +42,7 @@ WebUI.click(findTestObject('Object Repository/Page_Town Square - maketing Matter
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - maketing Mattermost/span_Create New Channel'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Town Square - maketing Mattermost/input_Name_newChannelName'), 'public community')
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - maketing Mattermost/input_Name_newChannelName'), 'public community123')
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - maketing Mattermost/span_Create Channel'))
 

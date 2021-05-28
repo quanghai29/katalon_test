@@ -17,3 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://localhost:8065/login')
+
+WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'), 'dungtien@gmail.com')
+
+WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
+    '12345678')
+
+WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Sign in'))
+
+WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Create a team'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_Team Name_teamNameInput'), 'dangerous world')
+
+WebUI.click(findTestObject('Object Repository/Page_Mattermost/button_Next'))
+
+WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Finish'))
+
+

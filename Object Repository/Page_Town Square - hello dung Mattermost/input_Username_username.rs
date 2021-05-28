@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Choose your username_name</name>
+   <name>input_Username_username</name>
    <tag></tag>
-   <elementGuidId>68103165-4be4-4a60-b4cd-4f0d90a6b368</elementGuidId>
+   <elementGuidId>c2c2f437-9251-4188-bb19-a9e9e152897a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#name</value>
+         <value>#username</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='name']</value>
+         <value>//input[@id='username']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,21 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>name</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>form-control</value>
+      <value>username</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,9 +40,16 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>spellcheck</name>
+      <name>class</name>
       <type>Main</type>
-      <value>false</value>
+      <value>form-control</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,29 +61,43 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Username</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>dung2</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;name&quot;)</value>
+      <value>id(&quot;username&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='name']</value>
+      <value>//input[@id='username']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='signup_email_section']/div/form/div/div[2]/div/input</value>
+      <value>//div[@id='generalSettings']/div[2]/section/div/div/div/div/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/input</value>
+      <value>//div/div/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

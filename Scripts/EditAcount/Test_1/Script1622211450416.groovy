@@ -19,16 +19,22 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:8065/signup_email')
+WebUI.navigateToUrl('http://localhost:8065/login')
 
-WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_concat(What, , s your email address)_email'), findTestData(
-        'Register Internal Data').getValue(1, 9))
+WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'), 'dung2@gmail.com')
 
-WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_Choose your username_name'), findTestData('Register Internal Data').getValue(
-        2, 9))
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
+    'RigbBhfdqOBGNlJIWM1ClA==')
 
-WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_Choose your password_password'), findTestData('Register Internal Data').getValue(
-        3, 9))
+WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Sign in'))
 
-WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Create Account'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - hello dung Mattermost/button_dung2_style--none sidebar-header-dro_d72f1c'))
+
+WebUI.click(findTestObject('Object Repository/Page_Town Square - hello dung Mattermost/button_Account Settings'))
+
+WebUI.click(findTestObject('Object Repository/Page_Town Square - hello dung Mattermost/span_Edit'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - hello dung Mattermost/input_Username_username'), 'dungtien2')
+
+WebUI.click(findTestObject('Object Repository/Page_Town Square - hello dung Mattermost/span_Save'))
 

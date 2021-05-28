@@ -6,12 +6,12 @@
    <elementGuidId>33033552-5ab5-4558-933f-ad7e57ffbf08</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='teamURLFinishButton']/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#teamURLFinishButton > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='teamURLFinishButton']/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

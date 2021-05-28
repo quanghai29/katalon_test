@@ -17,18 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('SignUp/Test_11'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('http://localhost:8065/signup_email')
+WebUI.callTestCase(findTestCase('Login/Test_11'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_concat(What, , s your email address)_email'), findTestData(
-        'Register Internal Data').getValue(1, 9))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - dangerous world Mattermost/button_dungtien_style--none sidebar-header-dr_b24fb1'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_Choose your username_name'), findTestData('Register Internal Data').getValue(
-        2, 9))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - dangerous world Mattermost/button_Account Settings'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_Choose your password_password'), findTestData('Register Internal Data').getValue(
-        3, 9))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - dangerous world Mattermost/span_Edit'))
 
-WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Create Account'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - dangerous world Mattermost/input_Username_username'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - dangerous world Mattermost/input_Username_username'), 'dungbuitien')
+
+WebUI.click(findTestObject('Object Repository/Page_Town Square - dangerous world Mattermost/span_Save'))
+
+WebUI.click(findTestObject('Object Repository/Page_Town Square - dangerous world Mattermost/span_'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Town Square - dangerous world Mattermost/div_dungbuitien'), '@dungbuitien')
+
+WebUI.closeBrowser()
 

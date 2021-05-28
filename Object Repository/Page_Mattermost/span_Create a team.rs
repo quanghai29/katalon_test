@@ -6,12 +6,12 @@
    <elementGuidId>95679fdb-746a-44e2-8676-d181bfd882a7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='createNewTeamLink']/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#createNewTeamLink > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='createNewTeamLink']/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

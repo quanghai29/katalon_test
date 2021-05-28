@@ -19,16 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:8065/signup_email')
+WebUI.navigateToUrl('http://localhost:8065/login')
 
-WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_concat(What, , s your email address)_email'), findTestData(
-        'Register Internal Data').getValue(1, 9))
-
-WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_Choose your username_name'), findTestData('Register Internal Data').getValue(
+WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'), findTestData('CreateNewChanel').getValue(
         2, 9))
 
-WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_Choose your password_password'), findTestData('Register Internal Data').getValue(
-        3, 9))
+WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
+    findTestData('CreateNewChanel').getValue(
+        4, 9))
 
-WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Create Account'))
+WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Sign in'))
 
+WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Create a team'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_Team Name_teamNameInput'), 'superman123')
+
+WebUI.click(findTestObject('Object Repository/Page_Mattermost/button_Next'))
+
+WebUI.click(findTestObject('Object Repository/Page_Mattermost/button_Finish'))

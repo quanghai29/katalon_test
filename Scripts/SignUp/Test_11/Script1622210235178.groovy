@@ -21,14 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8065/signup_email')
 
-WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_concat(What, , s your email address)_email'), findTestData(
-        'Register Internal Data').getValue(1, 9))
+WebUI.setText(findTestObject('Object Repository/EditAccount/Page_Mattermost/input_concat(What, , s your email address)_email'), 
+    'dungtien@gmail.com')
 
-WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_Choose your username_name'), findTestData('Register Internal Data').getValue(
-        2, 9))
+WebUI.setText(findTestObject('Object Repository/EditAccount/Page_Mattermost/input_Choose your username_name'), 'dungtien')
 
-WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_Choose your password_password'), findTestData('Register Internal Data').getValue(
-        3, 9))
+WebUI.setText(findTestObject('Object Repository/EditAccount/Page_Mattermost/input_Choose your password_password'), 
+    '12345678')
 
-WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Create Account'))
+WebUI.click(findTestObject('Object Repository/EditAccount/Page_Mattermost/button_Create Account'))
+
+WebUI.closeBrowser()
 

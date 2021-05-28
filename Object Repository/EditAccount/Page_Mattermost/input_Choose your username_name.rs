@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Choose your username_name</name>
    <tag></tag>
-   <elementGuidId>68103165-4be4-4a60-b4cd-4f0d90a6b368</elementGuidId>
+   <elementGuidId>4fb9feb1-d971-4aab-b8e4-266c56c28640</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>

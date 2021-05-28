@@ -16,20 +16,21 @@
    <data>meokg456%40gmail.com meokg456 ssss</data>
    <data>buitiendung%40gmail.com dungbui 12345678</data>
    <data>dung%40gmail.com dung1 12345678</data>
+   <data>pig1%40gmail.com pig2 12345678</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>email</name>
-      <size>8</size>
+      <size>9</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>username</name>
-      <size>8</size>
+      <size>9</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>2</columnIndex>
       <name>password</name>
-      <size>8</size>
+      <size>9</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

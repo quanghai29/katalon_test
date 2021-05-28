@@ -17,18 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:8065/signup_email')
+WebUI.callTestCase(findTestCase('Login/Test_10_Data-Internal'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_concat(What, , s your email address)_email'), findTestData(
-        'Register Internal Data').getValue(1, 9))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - superman Mattermost/i_CtrlK_icon-plus'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_Choose your username_name'), findTestData('Register Internal Data').getValue(
-        2, 9))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - superman Mattermost/span_Create New Channel'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_Choose your password_password'), findTestData('Register Internal Data').getValue(
-        3, 9))
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - superman Mattermost/input_Name_newChannelName'), 'batman1')
 
-WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Create Account'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - superman Mattermost/span_Create Channel'))
+
+WebUI.closeBrowser()
 
