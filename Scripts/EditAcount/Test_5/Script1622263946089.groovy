@@ -17,25 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('SignUp/Test_11'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Login/Test_11'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Object Repository/Page_Town Square - dangerous world Mattermost/svg'))
-
-WebUI.click(findTestObject('Object Repository/Page_Town Square - dangerous world Mattermost/button_Account Settings'))
-
-WebUI.click(findTestObject('Object Repository/Page_Town Square - dangerous world Mattermost/span_Edit'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Town Square - dangerous world Mattermost/input_Username_username'), 
-    'dungtienbui123')
-
-WebUI.click(findTestObject('Object Repository/Page_Town Square - dangerous world Mattermost/span_Save'))
-
-WebUI.click(findTestObject('Object Repository/Page_Town Square - dangerous world Mattermost/span_'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Town Square - dangerous world Mattermost/div_dungtienbui123'), 
-    '@dungtienbui123')
-
-WebUI.closeBrowser()
-
