@@ -17,15 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:8065/login')
+WebUI.click(findTestObject('Object Repository/Page_Town Square - hello dung Mattermost/div_PositionEdit'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'), findTestData(
-        'Edit User/EditUserPassword').getValue(1, 1))
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - hello dung Mattermost/input_Position_position'), 'quan')
 
-WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'), findTestData(
-        'Edit User/EditUserPassword').getValue(2, 1))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - hello dung Mattermost/span_Save'))
 
-WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Sign in'))
 

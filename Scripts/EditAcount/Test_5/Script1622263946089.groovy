@@ -17,3 +17,28 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://localhost:8065/login')
+
+WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'), 'dung2@gmail.com')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
+    'RigbBhfdqOBGNlJIWM1ClA==')
+
+WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Sign in'))
+
+WebUI.click(findTestObject('Object Repository/Page_Town Square - hello dung Mattermost/svg'))
+
+WebUI.click(findTestObject('Object Repository/Page_Town Square - hello dung Mattermost/span_Account Settings'))
+
+WebUI.click(findTestObject('Object Repository/Page_Town Square - hello dung Mattermost/div_Full NameEdit'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - hello dung Mattermost/input_First Name_firstName'), 'Dung')
+
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - hello dung Mattermost/input_Last Name_lastName'), 'Bui')
+
+WebUI.click(findTestObject('Object Repository/Page_Town Square - hello dung Mattermost/span_Save'))
+
+WebUI.closeBrowser()
+

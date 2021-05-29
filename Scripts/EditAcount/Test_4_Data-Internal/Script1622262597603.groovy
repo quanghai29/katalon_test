@@ -27,15 +27,15 @@ WebUI.click(findTestObject('Object Repository/Page_Town Square - hello dung Matt
 
 WebUI.setText(findTestObject('Object Repository/Page_Town Square - hello dung Mattermost/input_Current Password_currentPassword'),
 	findTestData(
-        'EditUserPassword').getValue(2, 1))
+        'Edit User/EditUserPassword').getValue(2, 1))
 
 WebUI.setText(findTestObject('Object Repository/Page_Town Square - hello dung Mattermost/input_New Password_newPassword'),
 	findTestData(
-        'EditUserPassword').getValue(3, 1))
+        'Edit User/EditUserPassword').getValue(3, 1))
 
 WebUI.setText(findTestObject('Object Repository/Page_Town Square - hello dung Mattermost/input_Retype New Password_confirmPassword'),
 	findTestData(
-        'EditUserPassword').getValue(3, 1))
+        'Edit User/EditUserPassword').getValue(3, 1))
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - hello dung Mattermost/span_Save'))
 
@@ -49,10 +49,10 @@ WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team c
 
 WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'),
 	findTestData(
-        'EditUserPassword').getValue(3, 1))
+        'Edit User/EditUserPassword').getValue(3, 1))
 
 WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Sign in'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Town Square - hello dung Mattermost/div_dungtien2'), '@dungtien2')
+//WebUI.verifyElementText(findTestObject('Object Repository/Page_Town Square - hello dung Mattermost/div_dungtien2'), '@dungtien2')
 
 WebUI.closeBrowser()
