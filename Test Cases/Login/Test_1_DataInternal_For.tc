@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test chuc nang Login voi Data Internal</description>
+   <name>Test_1_DataInternal_For</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eac77c32-f204-4a8c-9e54-36a9d71fe29b</testCaseGuid>
+</TestCaseEntity>
