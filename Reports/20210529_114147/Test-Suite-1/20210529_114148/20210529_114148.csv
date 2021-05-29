@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test-Suite-1,Edge Chromium 91,Create new chanel & Edit user password,,2021-05-29 11:41:51,2021-05-29 11:42:04,13.518s,PASSED
+,,,,,,,
+Test Cases/Login/Test_12_Data-Internal,Edge Chromium 91,,,2021-05-29 11:41:52,2021-05-29 11:41:58,6.188s,PASSED
+"openBrowser("""")",Edge Chromium 91,,,2021-05-29 11:41:52,2021-05-29 11:41:56,3.817s,PASSED
+"navigateToUrl(""http://localhost:8065/login"")",Edge Chromium 91,,,2021-05-29 11:41:56,2021-05-29 11:41:57,0.792s,PASSED
+"setText(findTestObject(""Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b""), findTestData(""EditUserPassword"").getValue(1, 1))",Edge Chromium 91,,,2021-05-29 11:41:57,2021-05-29 11:41:57,0.688s,PASSED
+"setText(findTestObject(""Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6""), findTestData(""EditUserPassword"").getValue(2, 1))",Edge Chromium 91,,,2021-05-29 11:41:57,2021-05-29 11:41:58,0.231s,PASSED
+"click(findTestObject(""Object Repository/Page_Mattermost/span_Sign in""))",Edge Chromium 91,,,2021-05-29 11:41:58,2021-05-29 11:41:58,0.178s,PASSED
+,,,,,,,
+Test Cases/CreateNewChanel/Test_6,Edge Chromium 91,,,2021-05-29 11:41:58,2021-05-29 11:41:59,1.495s,PASSED
+"click(findTestObject(""Object Repository/Page_Town Square - hello dung Mattermost/i_CtrlK_icon-plus""))",Edge Chromium 91,,,2021-05-29 11:41:58,2021-05-29 11:41:59,0.141s,PASSED
+"click(findTestObject(""Object Repository/Page_Town Square - hello dung Mattermost/span_Create New Channel""))",Edge Chromium 91,,,2021-05-29 11:41:59,2021-05-29 11:41:59,0.209s,PASSED
+"click(findTestObject(""Object Repository/Page_Town Square - hello dung Mattermost/input_- Anyone can join this channel_channelType""))",Edge Chromium 91,,,2021-05-29 11:41:59,2021-05-29 11:41:59,0.181s,PASSED
+"setText(findTestObject(""Object Repository/Page_Town Square - hello dung Mattermost/input_Name_newChannelName""), ""nothing 4"")",Edge Chromium 91,,,2021-05-29 11:41:59,2021-05-29 11:41:59,0.256s,PASSED
+"click(findTestObject(""Object Repository/Page_Town Square - hello dung Mattermost/span_Create Channel""))",Edge Chromium 91,,,2021-05-29 11:41:59,2021-05-29 11:41:59,0.135s,PASSED
+,,,,,,,
+Test Cases/EditAcount/Test_4_Data-Internal,Edge Chromium 91,,,2021-05-29 11:41:59,2021-05-29 11:42:04,4.908s,PASSED
+"click(findTestObject(""Object Repository/Page_Town Square - hello dung Mattermost/svg""))",Edge Chromium 91,,,2021-05-29 11:42:00,2021-05-29 11:42:00,0.144s,PASSED
+"click(findTestObject(""Object Repository/Page_Town Square - hello dung Mattermost/button_Account Settings""))",Edge Chromium 91,,,2021-05-29 11:42:00,2021-05-29 11:42:00,0.152s,PASSED
+"click(findTestObject(""Object Repository/Page_Town Square - hello dung Mattermost/button_Security""))",Edge Chromium 91,,,2021-05-29 11:42:00,2021-05-29 11:42:00,0.157s,PASSED
+"click(findTestObject(""Object Repository/Page_Town Square - hello dung Mattermost/span_Edit""))",Edge Chromium 91,,,2021-05-29 11:42:00,2021-05-29 11:42:01,0.142s,PASSED
+"setText(findTestObject(""Object Repository/Page_Town Square - hello dung Mattermost/input_Current Password_currentPassword""), findTestData(""EditUserPassword"").getValue(2, 1))",Edge Chromium 91,,,2021-05-29 11:42:01,2021-05-29 11:42:01,0.193s,PASSED
+"setText(findTestObject(""Object Repository/Page_Town Square - hello dung Mattermost/input_New Password_newPassword""), findTestData(""EditUserPassword"").getValue(3, 1))",Edge Chromium 91,,,2021-05-29 11:42:01,2021-05-29 11:42:01,0.213s,PASSED
+"setText(findTestObject(""Object Repository/Page_Town Square - hello dung Mattermost/input_Retype New Password_confirmPassword""), findTestData(""EditUserPassword"").getValue(3, 1))",Edge Chromium 91,,,2021-05-29 11:42:01,2021-05-29 11:42:01,0.206s,PASSED
+"click(findTestObject(""Object Repository/Page_Town Square - hello dung Mattermost/span_Save""))",Edge Chromium 91,,,2021-05-29 11:42:01,2021-05-29 11:42:01,0.138s,PASSED
+"click(findTestObject(""Object Repository/Page_Town Square - hello dung Mattermost/span_""))",Edge Chromium 91,,,2021-05-29 11:42:01,2021-05-29 11:42:01,0.125s,PASSED
+"click(findTestObject(""Object Repository/Page_Town Square - hello dung Mattermost/button_dungtien2_style--none sidebar-header_8995e0""))",Edge Chromium 91,,,2021-05-29 11:42:01,2021-05-29 11:42:02,0.331s,PASSED
+"click(findTestObject(""Object Repository/Page_Town Square - hello dung Mattermost/button_Log Out""))",Edge Chromium 91,,,2021-05-29 11:42:02,2021-05-29 11:42:02,0.151s,PASSED
+"setText(findTestObject(""Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b""), ""dung2@gmail.com"")",Edge Chromium 91,,,2021-05-29 11:42:02,2021-05-29 11:42:03,0.654s,PASSED
+"setText(findTestObject(""Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6""), findTestData(""EditUserPassword"").getValue(3, 1))",Edge Chromium 91,,,2021-05-29 11:42:03,2021-05-29 11:42:03,0.379s,PASSED
+"click(findTestObject(""Object Repository/Page_Mattermost/span_Sign in""))",Edge Chromium 91,,,2021-05-29 11:42:03,2021-05-29 11:42:03,0.150s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Town Square - hello dung Mattermost/div_dungtien2""), ""@dungtien2"")",Edge Chromium 91,,,2021-05-29 11:42:03,2021-05-29 11:42:04,0.464s,PASSED
+closeBrowser(),Edge Chromium 91,,,2021-05-29 11:42:04,2021-05-29 11:42:04,0.706s,PASSED
