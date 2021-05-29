@@ -29,6 +29,26 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Mattermost_2/span_Logout_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/LinhDong_Test/Page_Mattermost_AccountSettings_SetNickname/Page_Town Square - Team1 Mattermost/path",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "g \u003e path",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/LinhDong_Test/Page_Mattermost_AccountSettings_SetNickname/Page_Town Square - Team1 Mattermost/path_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/LinhDong_Test/Page_Mattermost_AccountSettings_SetNickname/Page_Mattermost/span_Sign in",
+      "brokenLocator": "//button[@id\u003d\u0027loginButton\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/LinhDong_Test/Page_Mattermost_AccountSettings_SetNickname/Page_Mattermost/span_Sign in_position.png"
     }
   ]
 }
