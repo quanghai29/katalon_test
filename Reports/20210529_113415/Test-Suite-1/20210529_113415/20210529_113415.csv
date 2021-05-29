@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test-Suite-1,Edge Chromium 91,Create new chanel & Edit user password,,2021-05-29 11:34:18,2021-05-29 11:34:26,7.678s,FAILED
+,,,,,,,
+Test Cases/Login/Test_12_Data-Internal,Edge Chromium 91,,,2021-05-29 11:34:19,2021-05-29 11:34:25,6.145s,PASSED
+"openBrowser("""")",Edge Chromium 91,,,2021-05-29 11:34:19,2021-05-29 11:34:22,2.363s,PASSED
+"navigateToUrl(""http://localhost:8065/login"")",Edge Chromium 91,,,2021-05-29 11:34:22,2021-05-29 11:34:23,0.947s,PASSED
+"setText(findTestObject(""Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b""), findTestData(""EditUserPassword"").getValue(1, 1))",Edge Chromium 91,,,2021-05-29 11:34:23,2021-05-29 11:34:24,0.887s,PASSED
+"setText(findTestObject(""Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6""), findTestData(""EditUserPassword"").getValue(2, 1))",Edge Chromium 91,,,2021-05-29 11:34:24,2021-05-29 11:34:24,0.258s,PASSED
+"click(findTestObject(""Object Repository/Page_Mattermost/span_Sign in""))",Edge Chromium 91,,,2021-05-29 11:34:24,2021-05-29 11:34:24,0.315s,PASSED
+closeBrowser(),Edge Chromium 91,,,2021-05-29 11:34:24,2021-05-29 11:34:25,0.862s,PASSED
+,,,,,,,
+Test Cases/EditAcount/Test_4_Data-Internal,Edge Chromium 91,,,2021-05-29 11:34:25,2021-05-29 11:34:26,0.520s,FAILED
+"click(findTestObject(""Object Repository/Page_Town Square - hello dung Mattermost/svg""))",Edge Chromium 91,,,2021-05-29 11:34:25,2021-05-29 11:34:26,0.098s,FAILED

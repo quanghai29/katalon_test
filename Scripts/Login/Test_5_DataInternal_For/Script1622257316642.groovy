@@ -17,25 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('SignUp/Test_11'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.callTestCase(findTestCase('Login/Test_11'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.navigateToUrl('http://localhost:8065/')
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - dangerous world Mattermost/svg'))
+def data = findTestData('Login_EmptyUsername_Or_EmptyPassword_Internal')
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - dangerous world Mattermost/button_Account Settings'))
+for (def index : (1..data.getRowNumbers())) {
+	WebUI.setText(findTestObject('Object Repository/LinhDong_Test/Page_Mattermost/input_All team communication in one place, _dcc84b'), 
+		data.getValue(1, index))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - dangerous world Mattermost/span_Edit'))
+	WebUI.setText(findTestObject('Object Repository/LinhDong_Test/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
+		data.getValue(2, index))
 
-WebUI.setText(findTestObject('Object Repository/Page_Town Square - dangerous world Mattermost/input_Username_username'), 
-    'dungtienbui123')
+	WebUI.click(findTestObject('Object Repository/LinhDong_Test/Page_Mattermost/span_Sign in'))
+}
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - dangerous world Mattermost/span_Save'))
-
-WebUI.click(findTestObject('Object Repository/Page_Town Square - dangerous world Mattermost/span_'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Town Square - dangerous world Mattermost/div_dungtienbui123'), 
-    '@dungtienbui123')
-
-WebUI.closeBrowser()
 

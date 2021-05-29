@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test-Suite-1" time="13.736" tests="3" failures="0" errors="0">
+   <testsuite name="Test-Suite-1" tests="3" failures="0" errors="0" time="13.736" skipped="0" timestamp="2021-05-29 11:41:51" hostname="DUNG BUI - LAPTOP-LSDSI2IO.mshome.net" id="Test Suites/Test-Suite-1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\DUNG BUI\\Katalon Studio\\katalon_test\\Reports\\20210529_114147\\Test-Suite-1\\20210529_114148"/>
+         <property name="logFiles" value="C:\\Users\\DUNG BUI\\Katalon Studio\\katalon_test\\Reports\\20210529_114147\\Test-Suite-1\\20210529_114148\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DUNG BUI - LAPTOP-LSDSI2IO.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.1.208"/>
+         <property name="browser" value="Edge Chromium 91"/>
+         <property name="hostAddress" value="192.168.112.1"/>
+         <property name="sessionId" value="6ad577adb80f11a33822528d08dee411"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Test_12_Data-Internal" time="6.188" classname="Test Cases/Login/Test_12_Data-Internal" status="PASSED">
+         <system-out><![CDATA[2021-05-29 11:41:52 - [TEST_CASE][PASSED] - Test Cases/Login/Test_12_Data-Internal: Test Cases/Login/Test_12_Data-Internal
+
+2021-05-29 11:41:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 11:41:52 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2021-05-29 11:41:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 11:41:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 11:41:56 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8065/login"): Navigate to 'http://localhost:8065/login' successfully
+
+2021-05-29 11:41:57 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8065/login' successfully
+
+2021-05-29 11:41:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b"), findTestData("EditUserPassword").getValue(1, 1)): Text 'dung2@gmail.com' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 11:41:57 - [MESSAGE][PASSED] - Text 'dung2@gmail.com' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 11:41:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6"), findTestData("EditUserPassword").getValue(2, 1)): Text '12345678' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 11:41:58 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 11:41:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-29 11:41:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreateNewChanel/Test_6" time="1.495" classname="Test Cases/CreateNewChanel/Test_6" status="PASSED">
+         <system-out><![CDATA[2021-05-29 11:41:58 - [TEST_CASE][PASSED] - Test Cases/CreateNewChanel/Test_6: Test Cases/CreateNewChanel/Test_6
+
+2021-05-29 11:41:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - hello dung Mattermost/i_CtrlK_icon-plus")): Object: 'Object Repository/Page_Town Square - hello dung Mattermost/i_CtrlK_icon-plus' is clicked on
+
+2021-05-29 11:41:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - hello dung Mattermost/i_CtrlK_icon-plus' is clicked on
+
+2021-05-29 11:41:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - hello dung Mattermost/span_Create New Channel")): Object: 'Object Repository/Page_Town Square - hello dung Mattermost/span_Create New Channel' is clicked on
+
+2021-05-29 11:41:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - hello dung Mattermost/span_Create New Channel' is clicked on
+
+2021-05-29 11:41:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - hello dung Mattermost/input_- Anyone can join this channel_channelType")): Object: 'Object Repository/Page_Town Square - hello dung Mattermost/input_- Anyone can join this channel_channelType' is clicked on
+
+2021-05-29 11:41:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - hello dung Mattermost/input_- Anyone can join this channel_channelType' is clicked on
+
+2021-05-29 11:41:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - hello dung Mattermost/input_Name_newChannelName"), "nothing 4"): Text 'nothing 4' is set on object 'Object Repository/Page_Town Square - hello dung Mattermost/input_Name_newChannelName'
+
+2021-05-29 11:41:59 - [MESSAGE][PASSED] - Text 'nothing 4' is set on object 'Object Repository/Page_Town Square - hello dung Mattermost/input_Name_newChannelName'
+
+2021-05-29 11:41:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - hello dung Mattermost/span_Create Channel")): Object: 'Object Repository/Page_Town Square - hello dung Mattermost/span_Create Channel' is clicked on
+
+2021-05-29 11:41:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - hello dung Mattermost/span_Create Channel' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EditAcount/Test_4_Data-Internal" time="4.908" classname="Test Cases/EditAcount/Test_4_Data-Internal" status="PASSED">
+         <system-out><![CDATA[2021-05-29 11:41:59 - [TEST_CASE][PASSED] - Test Cases/EditAcount/Test_4_Data-Internal: Test Cases/EditAcount/Test_4_Data-Internal
+
+2021-05-29 11:42:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - hello dung Mattermost/svg")): Object: 'Object Repository/Page_Town Square - hello dung Mattermost/svg' is clicked on
+
+2021-05-29 11:42:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - hello dung Mattermost/svg' is clicked on
+
+2021-05-29 11:42:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - hello dung Mattermost/button_Account Settings")): Object: 'Object Repository/Page_Town Square - hello dung Mattermost/button_Account Settings' is clicked on
+
+2021-05-29 11:42:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - hello dung Mattermost/button_Account Settings' is clicked on
+
+2021-05-29 11:42:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - hello dung Mattermost/button_Security")): Object: 'Object Repository/Page_Town Square - hello dung Mattermost/button_Security' is clicked on
+
+2021-05-29 11:42:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - hello dung Mattermost/button_Security' is clicked on
+
+2021-05-29 11:42:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - hello dung Mattermost/span_Edit")): Object: 'Object Repository/Page_Town Square - hello dung Mattermost/span_Edit' is clicked on
+
+2021-05-29 11:42:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - hello dung Mattermost/span_Edit' is clicked on
+
+2021-05-29 11:42:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - hello dung Mattermost/input_Current Password_currentPassword"), findTestData("EditUserPassword").getValue(2, 1)): Text '12345678' is set on object 'Object Repository/Page_Town Square - hello dung Mattermost/input_Current Password_currentPassword'
+
+2021-05-29 11:42:01 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Page_Town Square - hello dung Mattermost/input_Current Password_currentPassword'
+
+2021-05-29 11:42:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - hello dung Mattermost/input_New Password_newPassword"), findTestData("EditUserPassword").getValue(3, 1)): Text '123456' is set on object 'Object Repository/Page_Town Square - hello dung Mattermost/input_New Password_newPassword'
+
+2021-05-29 11:42:01 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Page_Town Square - hello dung Mattermost/input_New Password_newPassword'
+
+2021-05-29 11:42:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - hello dung Mattermost/input_Retype New Password_confirmPassword"), findTestData("EditUserPassword").getValue(3, 1)): Text '123456' is set on object 'Object Repository/Page_Town Square - hello dung Mattermost/input_Retype New Password_confirmPassword'
+
+2021-05-29 11:42:01 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Page_Town Square - hello dung Mattermost/input_Retype New Password_confirmPassword'
+
+2021-05-29 11:42:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - hello dung Mattermost/span_Save")): Object: 'Object Repository/Page_Town Square - hello dung Mattermost/span_Save' is clicked on
+
+2021-05-29 11:42:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - hello dung Mattermost/span_Save' is clicked on
+
+2021-05-29 11:42:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - hello dung Mattermost/span_")): Object: 'Object Repository/Page_Town Square - hello dung Mattermost/span_' is clicked on
+
+2021-05-29 11:42:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - hello dung Mattermost/span_' is clicked on
+
+2021-05-29 11:42:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - hello dung Mattermost/button_dungtien2_style--none sidebar-header_8995e0")): Object: 'Object Repository/Page_Town Square - hello dung Mattermost/button_dungtien2_style--none sidebar-header_8995e0' is clicked on
+
+2021-05-29 11:42:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - hello dung Mattermost/button_dungtien2_style--none sidebar-header_8995e0' is clicked on
+
+2021-05-29 11:42:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - hello dung Mattermost/button_Log Out")): Object: 'Object Repository/Page_Town Square - hello dung Mattermost/button_Log Out' is clicked on
+
+2021-05-29 11:42:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - hello dung Mattermost/button_Log Out' is clicked on
+
+2021-05-29 11:42:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b"), "dung2@gmail.com"): Text 'dung2@gmail.com' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 11:42:03 - [MESSAGE][PASSED] - Text 'dung2@gmail.com' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 11:42:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6"), findTestData("EditUserPassword").getValue(3, 1)): Text '123456' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 11:42:03 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 11:42:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-29 11:42:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-29 11:42:03 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Town Square - hello dung Mattermost/div_dungtien2"), "@dungtien2"): Actual text and expected text of test object 'Object Repository/Page_Town Square - hello dung Mattermost/div_dungtien2' are matched.
+
+2021-05-29 11:42:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Town Square - hello dung Mattermost/div_dungtien2' are matched.
+
+2021-05-29 11:42:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 11:42:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-05-29 11:41:51 - [TEST_SUITE][PASSED] - Test-Suite-1: Test Cases/EditAcount/Test_4_Data-Internal]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

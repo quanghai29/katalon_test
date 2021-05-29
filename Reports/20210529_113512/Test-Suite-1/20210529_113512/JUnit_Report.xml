@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test-Suite-1" time="13.409" tests="3" failures="1" errors="0">
+   <testsuite name="Test-Suite-1" tests="3" failures="1" errors="0" time="13.409" skipped="0" timestamp="2021-05-29 11:35:15" hostname="DUNG BUI - LAPTOP-LSDSI2IO.mshome.net" id="Test Suites/Test-Suite-1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\DUNG BUI\\Katalon Studio\\katalon_test\\Reports\\20210529_113512\\Test-Suite-1\\20210529_113512"/>
+         <property name="logFiles" value="C:\\Users\\DUNG BUI\\Katalon Studio\\katalon_test\\Reports\\20210529_113512\\Test-Suite-1\\20210529_113512\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\DUNG BUI\\Katalon Studio\\katalon_test\\Reports\\20210529_113512\\Test-Suite-1\\20210529_113512\\1622262923265.png"/>
+         <property name="hostName" value="DUNG BUI - LAPTOP-LSDSI2IO.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.1.208"/>
+         <property name="browser" value="Edge Chromium 91"/>
+         <property name="hostAddress" value="192.168.112.1"/>
+         <property name="sessionId" value="078a5da96c068c3d26745d20c1fdc2d4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Test_12_Data-Internal" time="5.227" classname="Test Cases/Login/Test_12_Data-Internal" status="PASSED">
+         <system-out><![CDATA[2021-05-29 11:35:16 - [TEST_CASE][PASSED] - Test Cases/Login/Test_12_Data-Internal: Test Cases/Login/Test_12_Data-Internal
+
+2021-05-29 11:35:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-05-29 11:35:17 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2021-05-29 11:35:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-29 11:35:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-05-29 11:35:19 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8065/login"): Navigate to 'http://localhost:8065/login' successfully
+
+2021-05-29 11:35:20 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8065/login' successfully
+
+2021-05-29 11:35:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b"), findTestData("EditUserPassword").getValue(1, 1)): Text 'dung2@gmail.com' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 11:35:21 - [MESSAGE][PASSED] - Text 'dung2@gmail.com' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 11:35:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6"), findTestData("EditUserPassword").getValue(2, 1)): Text '12345678' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 11:35:21 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 11:35:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-29 11:35:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreateNewChanel/Test_6" time="1.893" classname="Test Cases/CreateNewChanel/Test_6" status="FAILED">
+         <failure type="FAILED" message="Test Cases/CreateNewChanel/Test_6 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1463)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at Test_6.run(Test_6:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622262912524.run(TempTestSuite1622262912524.groovy:39)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-05-29 11:35:21 - [TEST_CASE][FAILED] - Test Cases/CreateNewChanel/Test_6: Test Cases/CreateNewChanel/Test_6 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1463)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at Test_6.run(Test_6:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622262912524.run(TempTestSuite1622262912524.groovy:39)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-05-29 11:35:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - hello dung Mattermost/i_CtrlK_icon-plus")): Object: 'Object Repository/Page_Town Square - hello dung Mattermost/i_CtrlK_icon-plus' is clicked on
+
+2021-05-29 11:35:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - hello dung Mattermost/i_CtrlK_icon-plus' is clicked on
+
+2021-05-29 11:35:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - hello dung Mattermost/span_Create New Channel")): Object: 'Object Repository/Page_Town Square - hello dung Mattermost/span_Create New Channel' is clicked on
+
+2021-05-29 11:35:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - hello dung Mattermost/span_Create New Channel' is clicked on
+
+2021-05-29 11:35:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - hello dung Mattermost/input_- Anyone can join this channel_channelType")): Object: 'Object Repository/Page_Town Square - hello dung Mattermost/input_- Anyone can join this channel_channelType' is clicked on
+
+2021-05-29 11:35:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - hello dung Mattermost/input_- Anyone can join this channel_channelType' is clicked on
+
+2021-05-29 11:35:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - hello dung Mattermost/input_Name_newChannelName"), "nothing 3"): Text 'nothing 3' is set on object 'Object Repository/Page_Town Square - hello dung Mattermost/input_Name_newChannelName'
+
+2021-05-29 11:35:23 - [MESSAGE][PASSED] - Text 'nothing 3' is set on object 'Object Repository/Page_Town Square - hello dung Mattermost/input_Name_newChannelName'
+
+2021-05-29 11:35:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - hello dung Mattermost/span_Create Channel")): Object: 'Object Repository/Page_Town Square - hello dung Mattermost/span_Create Channel' is clicked on
+
+2021-05-29 11:35:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - hello dung Mattermost/span_Create Channel' is clicked on
+
+2021-05-29 11:35:23 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Object Repository/Page_nothing 3 - hello dung Mattermost/div_nothing 3"), 0): Unable to verify object is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1463)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at Test_6.run(Test_6:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622262912524.run(TempTestSuite1622262912524.groovy:39)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1463)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at Script1622261557376.run(Script1622261557376.groovy:31)
+	... 13 more
+)
+
+2021-05-29 11:35:23 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_nothing 3 - hello dung Mattermost/div_nothing 3' does not exist
+
+2021-05-29 11:35:23 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2021-05-29 11:35:23 - [MESSAGE][FAILED] - Unable to verify object is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1463)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at Test_6.run(Test_6:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622262912524.run(TempTestSuite1622262912524.groovy:39)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1463)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at Script1622261557376.run(Script1622261557376.groovy:31)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\DUNG BUI\\Katalon Studio\\katalon_test\\Reports\\20210529_113512\\Test-Suite-1\\20210529_113512\\1622262923265.png]]]]></system-out>
+         <system-err><![CDATA[2021-05-29 11:35:21 - [TEST_CASE][FAILED] - Test Cases/CreateNewChanel/Test_6: Test Cases/CreateNewChanel/Test_6 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1463)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at Test_6.run(Test_6:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622262912524.run(TempTestSuite1622262912524.groovy:39)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EditAcount/Test_4_Data-Internal" time="4.985" classname="Test Cases/EditAcount/Test_4_Data-Internal" status="PASSED">
+         <system-out><![CDATA[2021-05-29 11:35:23 - [TEST_CASE][PASSED] - Test Cases/EditAcount/Test_4_Data-Internal: Test Cases/EditAcount/Test_4_Data-Internal
+
+2021-05-29 11:35:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - hello dung Mattermost/svg")): Object: 'Object Repository/Page_Town Square - hello dung Mattermost/svg' is clicked on
+
+2021-05-29 11:35:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - hello dung Mattermost/svg' is clicked on
+
+2021-05-29 11:35:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - hello dung Mattermost/button_Account Settings")): Object: 'Object Repository/Page_Town Square - hello dung Mattermost/button_Account Settings' is clicked on
+
+2021-05-29 11:35:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - hello dung Mattermost/button_Account Settings' is clicked on
+
+2021-05-29 11:35:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - hello dung Mattermost/button_Security")): Object: 'Object Repository/Page_Town Square - hello dung Mattermost/button_Security' is clicked on
+
+2021-05-29 11:35:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - hello dung Mattermost/button_Security' is clicked on
+
+2021-05-29 11:35:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - hello dung Mattermost/span_Edit")): Object: 'Object Repository/Page_Town Square - hello dung Mattermost/span_Edit' is clicked on
+
+2021-05-29 11:35:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - hello dung Mattermost/span_Edit' is clicked on
+
+2021-05-29 11:35:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - hello dung Mattermost/input_Current Password_currentPassword"), findTestData("EditUserPassword").getValue(2, 1)): Text '12345678' is set on object 'Object Repository/Page_Town Square - hello dung Mattermost/input_Current Password_currentPassword'
+
+2021-05-29 11:35:24 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Page_Town Square - hello dung Mattermost/input_Current Password_currentPassword'
+
+2021-05-29 11:35:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - hello dung Mattermost/input_New Password_newPassword"), findTestData("EditUserPassword").getValue(3, 1)): Text '123456' is set on object 'Object Repository/Page_Town Square - hello dung Mattermost/input_New Password_newPassword'
+
+2021-05-29 11:35:25 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Page_Town Square - hello dung Mattermost/input_New Password_newPassword'
+
+2021-05-29 11:35:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - hello dung Mattermost/input_Retype New Password_confirmPassword"), findTestData("EditUserPassword").getValue(3, 1)): Text '123456' is set on object 'Object Repository/Page_Town Square - hello dung Mattermost/input_Retype New Password_confirmPassword'
+
+2021-05-29 11:35:25 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Page_Town Square - hello dung Mattermost/input_Retype New Password_confirmPassword'
+
+2021-05-29 11:35:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - hello dung Mattermost/span_Save")): Object: 'Object Repository/Page_Town Square - hello dung Mattermost/span_Save' is clicked on
+
+2021-05-29 11:35:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - hello dung Mattermost/span_Save' is clicked on
+
+2021-05-29 11:35:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - hello dung Mattermost/span_")): Object: 'Object Repository/Page_Town Square - hello dung Mattermost/span_' is clicked on
+
+2021-05-29 11:35:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - hello dung Mattermost/span_' is clicked on
+
+2021-05-29 11:35:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - hello dung Mattermost/button_dungtien2_style--none sidebar-header_8995e0")): Object: 'Object Repository/Page_Town Square - hello dung Mattermost/button_dungtien2_style--none sidebar-header_8995e0' is clicked on
+
+2021-05-29 11:35:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - hello dung Mattermost/button_dungtien2_style--none sidebar-header_8995e0' is clicked on
+
+2021-05-29 11:35:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - hello dung Mattermost/button_Log Out")): Object: 'Object Repository/Page_Town Square - hello dung Mattermost/button_Log Out' is clicked on
+
+2021-05-29 11:35:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - hello dung Mattermost/button_Log Out' is clicked on
+
+2021-05-29 11:35:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b"), "dung2@gmail.com"): Text 'dung2@gmail.com' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 11:35:26 - [MESSAGE][PASSED] - Text 'dung2@gmail.com' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b'
+
+2021-05-29 11:35:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6"), findTestData("EditUserPassword").getValue(3, 1)): Text '123456' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 11:35:27 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6'
+
+2021-05-29 11:35:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-29 11:35:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2021-05-29 11:35:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Town Square - hello dung Mattermost/div_dungtien2"), "@dungtien2"): Actual text and expected text of test object 'Object Repository/Page_Town Square - hello dung Mattermost/div_dungtien2' are matched.
+
+2021-05-29 11:35:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Town Square - hello dung Mattermost/div_dungtien2' are matched.
+
+2021-05-29 11:35:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-29 11:35:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-05-29 11:35:15 - [TEST_SUITE][FAILED] - Test-Suite-1: Test Cases/CreateNewChanel/Test_6 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1463)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at Test_6.run(Test_6:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622262912524.run(TempTestSuite1622262912524.groovy:39)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2021-05-29 11:35:15 - [TEST_SUITE][FAILED] - Test-Suite-1: Test Cases/CreateNewChanel/Test_6 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1463)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at Test_6.run(Test_6:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1622262912524.run(TempTestSuite1622262912524.groovy:39)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

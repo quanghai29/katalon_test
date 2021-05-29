@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Username_username</name>
    <tag></tag>
-   <elementGuidId>c2c2f437-9251-4188-bb19-a9e9e152897a</elementGuidId>
+   <elementGuidId>a2ac7d9a-6eb3-48f5-a930-8d54a4661fc0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -70,7 +70,7 @@
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>dungtien2</value>
+      <value>dungtien</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
