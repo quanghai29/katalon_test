@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Must get admin account to create</description>
+   <name>CreateSession</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8072ed86-6be7-48e4-a920-1896e1eed499</testCaseGuid>
+</TestCaseEntity>
