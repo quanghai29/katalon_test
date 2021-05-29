@@ -17,21 +17,39 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+//WebUI.openBrowser('')
+//
+//WebUI.navigateToUrl('http://localhost:8065/login')
+//
+//WebUI.setText(findTestObject('Object Repository/LinhDong_Test/Page_Mattermost_EditAccount_SetNickname/Page_Mattermost/input_All team communication in one place, _dcc84b'), 
+//    'linhdong64')
+//
+//WebUI.setEncryptedText(findTestObject('Object Repository/LinhDong_Test/Page_Mattermost_EditAccount_SetNickname/Page_Mattermost/input_All team communication in one place, _a3edc6'), 
+//    'lGQN/Pbr2EsGxfFg3K2/xw==')
+//
+//WebUI.click(findTestObject('Object Repository/LinhDong_Test/Page_Mattermost_EditAccount_SetNickname/Page_Mattermost/span_Sign in'))
+WebUI.callTestCase(findTestCase('Login/Test_2_DataInternal'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/LinhDong_Test/Page_Mattermost_EditAccount_SetNickname/Page_Mattermost/span_Create a team'))
+
+WebUI.setText(findTestObject('Object Repository/LinhDong_Test/Page_Mattermost_EditAccount_SetNickname/Page_Mattermost/input_Team Name_teamNameInput'), 
+    'Team1')
+
+WebUI.click(findTestObject('Object Repository/LinhDong_Test/Page_Mattermost_EditAccount_SetNickname/Page_Mattermost/button_Next'))
+
+WebUI.click(findTestObject('Object Repository/LinhDong_Test/Page_Mattermost_EditAccount_SetNickname/Page_Mattermost/span_Finish'))
+
+WebUI.click(findTestObject('Object Repository/LinhDong_Test/Page_Mattermost_EditAccount_SetNickname/Page_Town Square - Team1 Mattermost/span'))
+
+WebUI.click(findTestObject('Object Repository/LinhDong_Test/Page_Mattermost_EditAccount_SetNickname/Page_Town Square - Team1 Mattermost/button_Account Settings'))
 def data = findTestData('EditAccount_SetNickname_DataInternal')
 
 for (def index : (1..data.getRowNumbers())) {
-WebUI.callTestCase(findTestCase('Login/Test_2_DataInternal'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/LinhDong_Test/Page_Mattermost_EditAccount_SetNickname/Page_Town Square - Team1 Mattermost/span_Edit'))
 
-WebUI.click(findTestObject('Object Repository/LinhDong_Test/Page_Mattermost_AccountSettings_SetNickname/Page_Town Square - Team1 Mattermost/path'))
-
-WebUI.click(findTestObject('Object Repository/LinhDong_Test/Page_Mattermost_AccountSettings_SetNickname/Page_Town Square - Team1 Mattermost/button_Account Settings'))
-
-WebUI.click(findTestObject('Object Repository/LinhDong_Test/Page_Mattermost_AccountSettings_SetNickname/Page_Town Square - Team1 Mattermost/span_Edit'))
-
-WebUI.setText(findTestObject('Object Repository/LinhDong_Test/Page_Mattermost_AccountSettings_SetNickname/Page_Town Square - Team1 Mattermost/input_Nickname_nickname'), 
+WebUI.setText(findTestObject('Object Repository/LinhDong_Test/Page_Mattermost_EditAccount_SetNickname/Page_Town Square - Team1 Mattermost/input_Nickname_nickname'), 
    data.getValue(1, index))
 
-WebUI.click(findTestObject('Object Repository/LinhDong_Test/Page_Mattermost_AccountSettings_SetNickname/Page_Town Square - Team1 Mattermost/span_Save'))
+WebUI.click(findTestObject('Object Repository/LinhDong_Test/Page_Mattermost_EditAccount_SetNickname/Page_Town Square - Team1 Mattermost/span_Save'))
 
-WebUI.click(findTestObject('Object Repository/LinhDong_Test/Page_Mattermost_AccountSettings_SetNickname/Page_Town Square - Team1 Mattermost/span_'))
 }
+WebUI.click(findTestObject('Object Repository/LinhDong_Test/Page_Mattermost_EditAccount_SetNickname/Page_Town Square - Team1 Mattermost/span_'))

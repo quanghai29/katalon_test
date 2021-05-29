@@ -49,6 +49,36 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/LinhDong_Test/Page_Mattermost_AccountSettings_SetNickname/Page_Mattermost/span_Sign in_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/LinhDong_Test/Page_Mattermost_Signup/Page_Mattermost/input_concat(What, , s your email address)_email",
+      "brokenLocator": "//input[@id\u003d\u0027email\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/LinhDong_Test/Page_Mattermost_Signup/Page_Mattermost/input_concat(What, , s your email address)_email_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/LinhDong_Test/Page_Mattermost_Signup_2/Page_Mattermost/span_Logout",
+      "brokenLocator": "//a[@id\u003d\u0027logout\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Mattermost\u0027])[2]/preceding::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/LinhDong_Test/Page_Mattermost_Signup_2/Page_Mattermost/span_Logout_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/LinhDong_Test/Page_Mattermost_Signup_For/Page_Mattermost/input_concat(What, , s your email address)_email",
+      "brokenLocator": "//input[@id\u003d\u0027email\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/LinhDong_Test/Page_Mattermost_Signup_For/Page_Mattermost/input_concat(What, , s your email address)_email_position.png"
     }
   ]
 }
