@@ -1,32 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>GetUsers</name>
+   <name>GetAUserByEmail</name>
    <tag></tag>
-   <elementGuidId>0a2b5b3c-00a7-493a-8e2c-145b05caf22d</elementGuidId>
+   <elementGuidId>1691b63b-60ea-45d8-b146-78b9ad58b2e2</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;contentType&quot;: &quot;application/x-www-form-urlencoded&quot;,
-  &quot;charset&quot;: &quot;UTF-8&quot;,
-  &quot;parameters&quot;: []
+  &quot;text&quot;: &quot;&quot;,
+  &quot;contentType&quot;: &quot;text/plain&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
-   <httpBodyType>x-www-form-urlencoded</httpBodyType>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>Bearer yx9uebi5f7g3jfq4zjp9crfawo</value>
+   </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>Content-Type</name>
       <type>Main</type>
-      <value>application/x-www-form-urlencoded</value>
+      <value>text/plain</value>
    </httpHeaderProperties>
    <katalonVersion>8.0.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>GET</restRequestMethod>
-   <restUrl>http://localhost:8065/api/v4/users</restUrl>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>http://localhost:8065/api/v4/users/1qjbmi9ozjfxfd9z1s5udz96ac/sessions/revoke</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
